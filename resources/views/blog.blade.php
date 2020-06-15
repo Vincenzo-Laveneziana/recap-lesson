@@ -1,10 +1,10 @@
 @extends('layouts.main')
 
 @section('content')
-    <h2>Main</h2>
+    <h2>Blog</h2>
     <br>
     <br>
-    <a href="{{route('blog')}}">Blog</a>
+    <a href="{{route('home')}}">Home</a>
     <br>
     <br>
 @endsection
